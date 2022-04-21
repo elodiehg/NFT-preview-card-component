@@ -107,7 +107,7 @@
   background: #15263f;
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .clock {
@@ -125,8 +125,8 @@
 
 hr {
   margin-top: 20px;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .block_3 {
