@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0%;
+  background: #0d192c;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 300px;
+  height: 560px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+
+.container_img {
+  position: relative;
+  background: #15263f;
+}
+
+.mainImg {
+  width: 100%;
+  height: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.container_img div {
+  position: absolute;
+  background-color: hsl(178, 100%, 50%, 60%);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.container_img div:hover {
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.container_img div img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container_img .mainImg:hover + .hover-active {
+  display: block;
+  cursor: pointer;
+}
+
+.icon {
+  background: none;
+}
+
+.block_1 {
+  margin-top: 20px;
+  background: #15263f;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  background: #15263f;
+  color: white;
+}
+
+.para {
+  margin-top: 20px;
+  background: #15263f;
+  color: #8bacd9;
+  font-weight: 300;
+}
+
+.block_2 {
+  background: #15263f;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.eth {
+  color: #00fff8;
+  background: #15263f;
+  padding-right: 5px;
+}
+.price {
+  color: #00fff8;
+  background: #15263f;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hours {
+  background: #15263f;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.clock {
+  padding-left: 50px;
+  background: #15263f;
+  padding-right: 5px;
+}
+
+.time_left {
+  color: #8bacd9;
+  background: #15263f;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.block_3 {
+  background: #15263f;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#img_2 {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  width: 35px;
+  border-radius: 90px;
+}
+
+.author {
+  background: #15263f;
+  margin-left: 15px;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+}
+
+.creation {
+  background: #15263f;
+  color: #8bacd9;
+  font-weight: 400;
+}
+
+.hr {
+  margin-top: 25px;
+}
+
+.name {
+  background: #15263f;
+}
+
+.title:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.name:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.eth {
+  background: none;
+}
